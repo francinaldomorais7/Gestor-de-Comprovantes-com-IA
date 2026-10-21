@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src=" https://js.puter.com/v2/ "></script>
+        <title>Gestor de Comprovantes</title>
+    </head>
+
+    <body>
+        <div>
+            <h1>Gestor de Comprovantes</h1>
+            <p class="topo">Fotografe o comprovante. A IA anota pra você.</p>
+        </div>
+
+        <div class="caixa-total">
+            <p>Total Gasto</p>
+            <h2 class="total-gasto">R$ 0,00</h2>
+            <p class="total-lidos">0 comprovantes lidos</p>
+        </div>
+
+        <label>
+            🧾Toque para fotografar o comprovante
+            <input class="foto" onchange="ler_foto()" type="file" accept="image/*">
+        </label>
+        
+        <div class="lista">
+            
+        </div>
+    </body>
+<script src="script.js"></script>
+</html>
